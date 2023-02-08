@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+            <div class="header col-md-12">
+                <div class="header-img col-md-6 text-center">
+                    <a href="index.html"><img src="asset/spotify-icon.png" alt="spotify-icon" width="150px"></a>
+                </div>
+                <nav class="mx-auto navbar navbar-expand-lg bg-body-tertiary text-white navbar-dark bg-dark my-nav">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                                <a onclick="showAlert()" class="header-menu-a" href="">Premium</a>
+                                <a onclick="showAlert()" class="header-menu-a" href="">Support</a>
+                                <a onclick="showAlert()" class="header-menu-a" href="">Download</a>
+                                <a onclick="showAlert()" class="header-menu-a" href="">Sign up</a>
+                                <a onclick="showAlert()" class="header-menu-a" href="">Log in</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+        </div>
+    </header>
+    <section id="section1">
+        <!-- <svg style="width: 768px;" viewBox="0 0 1580 1068" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <linearGradient x1="-2.80587121%" y1="87.4389868%" x2="106.789773%" y2="6.32293537%" id="linearGradient-1">
+                <stop stop-color="#4001F5" offset="0%"></stop>
+                <stop stop-color="#F037A5" offset="100%"></stop>
+            </linearGradient>
+            <path d="M876.788051,637.963387 C871.036422,612.565595 868,586.137395 868,559 C868,362.386629 1027.38663,203 1224,203 C1420.61337,203 1580,362.386629 1580,559 C1580,755.613371 1420.61337,915 1224,915 C1154.01631,915 1088.74916,894.806137 1033.70762,859.9275 C1027.76267,975.84264 931.89359,1068 814.5,1068 C693.273497,1068 595,969.726503 595,848.5 C595,727.273497 693.273497,629 814.5,629 C836.136608,629 857.042039,632.130543 876.788051,637.963387 Z M317,635 C141.925734,635 0,492.850408 0,317.5 C0,142.149592 141.925734,0 317,0 C492.074266,0 634,142.149592 634,317.5 C634,492.850408 492.074266,635 317,635 Z" id="Oval-2-Copy-3" fill="url(#linearGradient-1)" transform="translate(790.000000, 534.000000) scale(-1, 1) translate(-790.000000, -534.000000) "></path>
+          </svg> -->
+        <div class="section1-img col-md-4 text-center">
+            <img src="asset/mob.png" alt="mob-spotify" style="margin-top: 100px; border-radius: 35px 35px 0 0;">
+        </div>
+        <div class="section1-content col-12 col-md-8 ps-5">
+            <p class="section1-p">Play millions of songs <br> and podcasts, for free</p>
+            <button class="section1-btn">GET SPOTIFY FREE</button>
+        </div>  
+    </section>
+    <section class="section2">
+        <h1 class="section2-h1 text-center pt-5 pb-5">Why Spotify?</h1>
+        <div class="container">
+            <div class="section2-icon row">
+                <div class="col-12 col-md-3 text-center p-5">
+                    <div>
+                        <img src="asset/icon-1.png" alt="icon1">
+                        <div class="section2-content">
+                            <h4>Play your favourites</h4>
+                            <p>Listen to the songs you love, and discover new music and podcasts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-center p-5">
+                    <div>
+                        <img src="asset/icon-2.png" alt="icon2">
+                        <div class="section2-content">
+                            <h4>Playlists made easy.</h4>
+                            <p>We'll help you make playlists. Or enjoy playlists made by music experts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-center p-5">
+                    <div>
+                        <img src="asset/icon-3.png" alt="icon3">
+                        <div class="section2-content">
+                            <h4>Make it yours</h4>
+                            <p>Tell us what you like, and we'll recommend music for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-center p-5">
+                    <div>
+                        <img src="asset/icon-4.png" alt="icon4">
+                        <div class="section2-content">
+                            <h4>Save mobile data.</h4>
+                            <p>To use less data when you play music, turn on Data Saver in Settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="section3-p text-center col-md-12">
+            <p class="section1-p">It's free. <br>
+                No credit card required.</p>
+        </div>
+    </section>
+    <section id="section4">
+        <h1 class="section2-h1 text-center pt-5 pb-5">Got Questions?</h1>
+        <div  class="section4-divs">
+            <div class="col-md-8">
+                <div class="section4-hover" onclick="show()">
+                    <p>How do I create a playlist?</p>
+                </div>
+                <div id="btn-click" style="font-weight: normal;display: none;">
+                    <p>Playlists are a great way to save collections of music, either for your own listening or to share.</p>
+                    <br>
+                    <p>To create one:</p>
+                    <br>
+                    <ol>
+                        <li>Tap Your Library.</li>
+                        <li>Tap CREATE.</li>
+                        <li>Give your playlist a name.</li>
+                        <li>Start adding songs (and we'll help you along).</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="section4-hover" onclick="show1()">
+                    <p>How do I activate Data Saver mode?</p>
+                </div>
+                <div id="btn-click1" style="font-weight: normal;display: none;">
+                    <ol>
+                        <li>Tap Home.</li>
+                        <li> Tap Settings.</li>
+                        <li>Tap Data Saver.</li>
+                        <li>Switch on Data Saver.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="section4-hover" onclick="show2()">
+                    <p>Is it only possible to shuffle play music?</p>
+                </div>
+                <div id="btn-click2" style="font-weight: normal;display: none;">
+                    <p>
+                        Any playlist with the shuffle icon will play on shuffle. <br><br> Some playlists won't have the shuffle icon, so you can tap any song to play it.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="section4-hover" onclick="show3()">
+                    <p>Where can I find Podcasts?</p>
+                </div>
+                <div id="btn-click3" style="font-weight: normal;display: none;">
+                    <p>Tap Search. Under Browse All, tap Podcasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="col-12" id="section3" style="display: flex; flex-direction: column; align-items: center; margin-top: 40px;">
+            <p class="section1-p" style=" margin-top: 170px;">Ready? Let’s play.</p>
+            <button class="section1-btn">GET SPOTIFY FREE</button>
+        </div>
+    </section>
+    <footer>
+        <div class="row" style="height: 450px;">
+            <div class="footer col-12 col-md-2 text-center">
+                <img src="asset/spotify-icon.png" alt="icon" width="180px">
+            </div>
+            <div class="footer col-12 col-md-2">
+                <h5 style="color: rgb(176, 176, 176);padding-left: 20px;">COMPANY</h5>
+                <ul style="list-style: none;line-height: 45px;">
+                    <li>About</li>
+                    <li>Jobs</li>
+                    <li>For the Records</li>
+                </ul>
+            </div>
+            <div class="footer col-12 col-md-2">
+                <h5 style="color: rgb(176, 176, 176);padding-left: 20px;">Communities</h5>
+                <ul style="list-style: none;line-height: 45px;">
+                    <li>For Artists</li>
+                    <li>Developers</li>
+                    <li>Advertisers</li>
+                    <li>Inverstors</li>
+                    <li>Vendors</li>
+                </ul>
+            </div>
+            <div class="footer col-12 col-md-2">
+                <h5 style="color: rgb(176, 176, 176);padding-left: 20px;">USEFUL LINKS</h5>
+                <ul style="list-style: none;line-height: 45px;">
+                    <li>Support</li>
+                    <li>Web Player</li>
+                    <li>Free Mobile App</li>
+                </ul>
+            </div>
+            <div class="footer col-12 col-md-2">
+            </div>
+            <div class="footer col-12 col-md-2">
+               <a href="https://www.facebook.com/"> <img src="asset/face.jpg" alt="facebook" width="50px" style="border-radius: 50px;"></a>
+               <a href="https://www.youtube.com/"><img src="asset/youtube.jpg" alt="insta" width="50px" style="border-radius: 50px;"></a>
+               <a href="https://twitter.com/"><img src="asset/twitter.jpg" alt="twitter" width="50px" style="border-radius: 50px;"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</body>
+</html>
